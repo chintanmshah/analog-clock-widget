@@ -1,0 +1,63 @@
+html,
+body {
+	margin: 0;
+	height: 100%;
+}
+
+.clock-container {
+	display: block;
+	position: relative;
+	height: 300px;
+	width: 300px;
+	background: url("./bckgrnd.svg");
+	background-size: 100%;
+}
+
+#seconds-dot {
+	width: 14px;
+	height: 14px;
+	background-color: white;
+	border-radius: 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -7px;
+	top: 35px;
+	transform-origin: 7px 115px;
+}
+
+#min-hand {
+	width: 14px;
+	height: 102px;
+	background-color: aqua;
+	border-radius: 7px;
+	position: absolute;
+	left: 50%;
+	margin-left: -7px;
+	top: 55px;
+	transform-origin: 7px 95px;
+}
+
+#hour-hand {
+	width: 14px;
+	height: 60px;
+	background-color: rgba(240, 128, 128, 0.8);
+	border-radius: 7px;
+	position: absolute;
+	left: 50%;
+	margin-left: -7px;
+	top: 97px;
+	transform-origin: 7px 53px;
+}
+
+.settings {
+	display: flex;
+}
+.settings * {
+    margin: 10px;
+}
+.settings *:nth-child(2n) {
+	flex-basis: 60%;
+}
+.settings *:nth-child(2n + 1) {
+	flex-basis: 40%;
+}
