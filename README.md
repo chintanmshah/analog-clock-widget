@@ -4,6 +4,7 @@ This analog clock app is built using electron.js for desktops to act as a widget
 
 ## Inspiration
 The clock widget from Android 12.
+
 ![Photo of Android 12 clock widget](screenshots/inspiration.png)
 
 ## Outcome
