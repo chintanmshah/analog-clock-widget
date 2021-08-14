@@ -1,7 +1,7 @@
 {
-  "name": "android-12-clock-widget",
+  "name": "analog-clock-widget",
   "version": "1.0.0",
-  "description": "Android 12 inspired clock",
+  "description": "Android 12 inspired analog clock for desktop",
   "main": "index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "Chintan Shah",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.55",
     "@electron-forge/maker-deb": "^6.0.0-beta.55",
