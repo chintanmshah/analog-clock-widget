@@ -8,6 +8,7 @@ The clock widget from Android 12.
 ![Photo of Android 12 clock widget](screenshots/inspiration.png)
 
 ## Outcome
+![Photo of this app](screenshots/actual.png)
 
 ## Installation
 Use the node package manager [npm](https://nodejs.org/en/download/) to install dependencies.
